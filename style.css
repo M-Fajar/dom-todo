@@ -1,0 +1,83 @@
+:root {
+  --primaryColor: #f12e90;
+  --secondaryColor: #ffffff;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--primaryColor);
+  margin: 0;
+  padding: 0;
+}
+h5 {
+  font-weight: 600;
+  font-size: large;
+  padding-top: 20px;
+  padding-left: 31px;
+}
+
+#btn-add {
+  color: white;
+  background-color: var(--primaryColor);
+  margin-left: 15px;
+  width: 70px;
+}
+
+#input-name {
+  height: 40px;
+  margin-left: 31px;
+  width: 450px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.list-item {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  height: 70px;
+  padding-left: 20px;
+}
+.list-item h5 {
+  display: inline-block;
+  width: 80%;
+  font-weight: 400;
+}
+.icon {
+  color: var(--primaryColor);
+  font-size: larger;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.icon:hover {
+  color: #b91265;
+}
+
+#content {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  margin-top: 9%;
+  min-width: 100vh;
+  min-height: 100vh;
+
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+#div-input {
+  width: 600px;
+  height: 120px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 50px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#div-list {
+  width: 600px;
+  min-height: 100px;
+  margin: 0 auto;
+}
